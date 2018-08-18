@@ -33,7 +33,7 @@
                 '<div><ul>' + 
                     '<li class ="playbtn-container"><a style="text-decoration: none;"' +
                     ' class="start-button" href="javascript:void(0)">' + playControl + '</a></li>' + 
-                    '<li class="progressbar-wrapper" style="display: inline-block; cursor: pointer; width:' + config.progressbarWidth + ';">' + 
+                    '<li class="progressbar-wrapper" style="display: inline-block; cursor: pointer; width:' + config.progressbarWidth + '; height:22px; ">' + 
                         '<span style="display: block; background-color: ' + config.progressbarBGColor + '; width: 100%; ">' + 
                         '<span class="progressbar" style="display: block; background-color: ' + config.progressbarColor +
                                                          '; height: ' + config.progressbarHeight + '; width: 0%; ">' +
