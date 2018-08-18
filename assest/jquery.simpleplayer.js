@@ -15,7 +15,7 @@
             progressbarWidth: '150px',
             progressbarHeight: '12px',
             progressbarColor: '#97a5a7',
-            progressbarBGColor: '#ebebeb',
+            progressbarBGColor: 'rgba(255,255,255,0.7)',
             defaultVolume: 0.8
         };
 
