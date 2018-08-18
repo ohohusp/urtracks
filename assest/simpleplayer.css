@@ -1,0 +1,50 @@
+body{
+	/*background: #232323;*/
+    background: #253945;
+	}
+
+.simple-player-container {
+    display: inline-block;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+	height:17px;
+}
+.simple-player-container > div > ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.container-deco {
+    background-color: #c3c3c3; 
+    padding: 6px 10px 9px 5px;
+}
+
+
+.simpleplayer-play-control {
+    background-image: url('../images/play.svg');
+    display: block;
+    width: 16px;
+    height: 16px;
+    bottom: -2px;
+    position: relative;
+}
+.simpleplayer-play-control:hover {
+   /* background-image: url('../images/play.svg');*/
+}
+.simpleplayer-stop-control {
+    background-image: url('../images/pause.svg');
+    display: block;
+    width: 16px;
+    height: 16px;
+    bottom: -2px;
+    position: relative;
+}
+.simpleplayer-stop-control:hover {
+    /*background-image: url('../images/pause.svg');*/
+}
+
+.playbtn-container {
+    display: inline-block; 
+    padding: 0 7px 0 5px;
+}
